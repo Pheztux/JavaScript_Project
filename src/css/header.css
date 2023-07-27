@@ -1,0 +1,142 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    z-index: 100;
+    border-bottom-color: rgb(230, 227, 227);
+}
+
+.left-section-header {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-icon {
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.middle-section-header {
+    flex: 1;
+    margin-left: 35px;
+    margin-right: 70px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-menu {
+    font-size: 16px;
+    height: 33px;
+    padding-left: 10px;
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+    border-radius: 2px;
+    width: 0;
+    box-shadow: inset 1px 2px 3px rgb(194, 191, 191)
+}
+
+.search-menu::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+
+}
+
+.search-menu-button {
+    height: 37px;
+    width: 66px;
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(173, 173, 173);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+}
+
+.search-button-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+
+.voice-button {
+    border-radius: 20px;
+    margin-left: 10px;
+    border: none;
+
+
+}
+
+.voice-button-icon {
+    height: 30px;
+    margin-top: 4px;
+    /* width: 30px; */
+    /* border-radius: 15px; */
+}
+
+.right-section-header {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+
+}
+
+.upload-icon {
+    height: 24px;
+}
+
+.youtube-app {
+    height: 24px;
+}
+
+.notification-bar {
+    position: relative;
+    /* align-items: center; */
+
+}
+
+.notification-counter {
+    position: absolute;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    top: -3px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.notification-icon {
+    height: 24px;
+
+}
+
+.my-channel-icon {
+    height: 32px;
+    border-radius: 16px;
+}
